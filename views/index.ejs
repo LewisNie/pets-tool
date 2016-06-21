@@ -68,44 +68,59 @@
                   <span class="sr-only">Toggle navigation</span>
                   <li style="color:#000"><b>{{totalProduct}}</b> products</li>
               </button>
-              <a class="navbar-brand" ui-sref="dog" ng-click="changedogTotalProducts()"><b>Dog</b></a>
-              <a class="navbar-brand" ui-sref="cat" ng-click="changeCatTotalProducts()"><b>Cat</b></a>
+              <a class="navbar-brand" id="changeBC1" ng-click="PetConditionChange('dog')" style="cursor: pointer"><b>Dog</b></a>
+              <a class="navbar-brand" id="changeBC2" ng-click="PetConditionChange('cat')" style="cursor: pointer"><b>Cat</b></a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <form class="navbar-form navbar-left" role="search" >
                   <div class="input-group">
-                      <select class="form-control " id="sel1">
-                          <option>1 categories selected</option>
-                          <option>2 categories selected</option>
-                          <option>3 categories selected</option>
-                          <option>4 categories selected</option>
+                      <select  class="form-control" ng-options="Category as Category.label for Category in Categories" ng-model="selectedCategory" ></select>
+                  </div>
+                  <div class="input-group">
+                      <select class="form-control" ng-options="subCategory as subCategory.label for subCategory in selectedCategory.subCategory" ng-model="selectedSubCategory">
                       </select>
                   </div>
                   <div class="input-group">
-                      <select class="form-control" id="sel1">
-                          <option>0 subcategories selected</option>
-                          <option>2 subcategories selected</option>
-                          <option>3 subcategories selected</option>
-                          <option>4 subcategories selected</option>
+                      <select class="form-control" ng-options="sort as sort.label for sort in sortby" ng-model="sortType" >
+
                       </select>
                   </div>
-                  <div class="input-group">
-                      <select class="form-control" id="sel1">
-                          <option>Sort By</option>
-                          <option>2 subcategories selected</option>
-                          <option>3 subcategories selected</option>
-                          <option>4 subcategories selected</option>
-                      </select>
-                  </div>
-                  <button class="btn btn-danger" type="button">Reset</button>
+                  <button class="btn btn-danger" type="button" ng-click="reset()">Reset</button>
               </form>
               <ul class="nav navbar-nav navbar-right" style="color: #000">
                   <li style="margin: 12px 5px; font-size: 15px;"><b>{{totalProduct}}</b> products</li>
               </ul>
           </div>
       </nav>
-        <div ui-view></div>
+
+      <div class="row" style="margin-top: 10px;">
+          <div class="col-xs-6 col-md-3"  ng-repeat="data in datas | startFrom: (currentPage-1)*8 | limitTo: 8">
+              <div class="thumbnail" style="text-align: center">
+                  <a href="#" >
+                      <img ng-src={{data.imageUrl}} style="height: 120px;"/>
+                  </a>
+                  <div class="caption">
+                      <p style="height: 50px;">{{data.product_name}}</p>
+                      <button class="btn btn-danger" type="button">${{data.price}}</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <uib-pagination boundary-links="true" total-items="totalProduct" ng-model="currentPage" class="pagination-sm pull-right"  ng-change="pageChanged()" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
 
   </div>
+  
+  <script>
+      $(document).ready(function(){
+          $('#changeBC1').click(function(){
+              $('#changeBC1').addClass('backgroundColor');
+              $('#changeBC2').removeClass('backgroundColor')
+          });
+          $('#changeBC2').click(function(){
+              $('#changeBC2').addClass('backgroundColor');
+              $('#changeBC1').removeClass('backgroundColor')
+          });
+      })
+  </script>
   </body>
 </html>

@@ -249,6 +249,14 @@
     "product_name":"Purebites Beef Liver Cat Treat",
     "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fpurebites-beef-liver-cat-treat-0-85-oz-90.gif",
     "price": 1.99
+  },
+  {
+    "pet":"cat",
+    "category": 2,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"Herbsmith Sassy Cat Treats",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fherbsmith-sassy-cat-treats-pork-puffs-29.gif",
+    "price": 4.99
   }
-
 ]

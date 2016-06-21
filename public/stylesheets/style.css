@@ -36,6 +36,9 @@ nav{
 .banner{
     width: 100%;
 }
+.thumbnail{
+    height: 250px;
+}
 .panel1{
     margin: 2px auto;
     height: 50px;
@@ -69,4 +72,10 @@ nav{
 }
 #secondNav .form-control{
     border-radius: inherit;
+}
+.backgroundColor{
+    background-color: #EEEEEE;
+}
+#secondNav .navbar-header a:hover{
+    background-color: #EEEEEE;
 }
