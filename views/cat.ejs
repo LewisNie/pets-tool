@@ -1,0 +1,14 @@
+<div class="row" style="margin-top: 10px;">
+    <div class="col-xs-6 col-md-3"  ng-repeat="data in datas | startFrom: (currentPage-1)*8 | limitTo: 8">
+        <div class="thumbnail" style="text-align: center">
+            <a href="#" >
+                <img ng-src={{data.imageUrl}}>
+            </a>
+            <div class="caption">
+                <h6>{{data.product_name}}</h6>
+                <button class="btn btn-danger" type="button">{{data.price}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<uib-pagination boundary-links="true" total-items="totalProduct" ng-model="currentPage" class="pagination-sm"  ng-change="pageChanged()" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>

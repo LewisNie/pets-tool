@@ -1,0 +1,254 @@
+[{
+  "pet":"dog",
+  "category": 0,
+  "subcategory": 0,
+  "id":1,
+  "product_name":"K9 Advantix II",
+  "imageUrl":"http://ep.yimg.com/ay/entirelypets/k9-advantix-ii-for-dogs-69.jpg",
+  "price":29.99
+},
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 0,
+    "id":2,
+    "product_name":"Advantage II for Dogs",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/4-month-advantage-ii-flea-control-small-dog-for-dogs-under-10-lbs-60.jpg",
+    "price":46.89
+  },
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 0,
+    "id":3,
+    "product_name":"Seresto Flea & Tick Collar for Large Dogs",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/seresto-flea-tick-collar-for-large-dogs-102.jpg",
+    "price":45.99
+  },
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 1,
+    "id":4,
+    "product_name":"Capstar Flea Control for Dogs & Cats",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/capstar-37.jpg",
+    "price":45.99
+  },
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 1,
+    "id":5,
+    "product_name":"PetzLife TickZ",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/petzlife-tickz-7.jpg",
+    "price":19.99
+  },
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 1,
+    "id":6,
+    "product_name":"Program Flea Control for Dogs",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/6-month-program-red-for-dogs-11-20-lbs-and-cats-up-to-6-lbs-5.jpg",
+    "price": 50.99
+  },
+  {
+    "pet":"dog",
+    "category": 0,
+    "subcategory": 2,
+    "id":7,
+    "product_name":"Hartz Ultraguard Plus",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/hartz-ultraguard-plus-flea-tick-collar-for-dogs-cats-1.jpg",
+    "price": 7.99
+  },
+  {
+    "pet":"dog",
+    "category": 1,
+    "subcategory": 0,
+    "id":8,
+    "product_name":"joint Max Regular Strength",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/joint-max-regular-strength-46.jpg",
+    "price": 22.99
+  },
+  {
+    "pet":"dog",
+    "category": 1,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Joint Max Liquid for Dogs and Cats",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/joint-max-liquid-for-dogs-cats-9.jpg",
+    "price": 24.99
+  },
+  {
+    "pet":"dog",
+    "category": 1,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"Cosequin for Dogs",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/cosequin-ds-double-strength-cosequin-for-dogs-39.jpg",
+    "price": 17.99
+  },
+  {
+    "pet":"dog",
+    "category": 1,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"NaturVet Senior Hip & Joint",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/naturvet-senior-hip-joint-1.jpg",
+    "price": 10.99
+  },
+  {
+    "pet":"dog",
+    "category": 2,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Ora-Clens® Water Additive",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/ora-clens-reg-water-additive-1.jpg",
+    "price": 7.99
+  },
+  {
+    "pet":"dog",
+    "category": 2,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"AllAccem Dental Sealant",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/allaccem-dental-sealant-2.jpg",
+    "price": 79.99
+  },
+  {
+    "pet":"dog",
+    "category": 2,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"Ora-Clens 1-TDC",
+    "imageUrl":"http://ep.yimg.com/ay/entirelypets/ora-clens-1-tdc-24.jpg",
+    "price": 58.99
+  },
+  {
+    "pet":"cat",
+    "category": 0,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Hartz Just for Cats Midnight Crazies Cat Toy",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fhartz-just-for-cats-midnight-crazies-cat-toy-7-pack-16.gif",
+    "price": 1.59
+  },
+  {
+    "pet":"cat",
+    "category": 0,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Spot Mylar Balls",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fspot-mylar-balls-4-pack-40.gif",
+    "price": 1.99
+  },
+  {
+    "pet":"cat",
+    "category": 0,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"Fat Cat Classic Showgulls",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2ffat-cat-classic-showgulls-61.gif",
+    "price": 2.99
+  },
+  {
+    "pet":"cat",
+    "category": 0,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"Booda Cat Wheel - Gray",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fbooda-cat-wheel-gray-41.gif",
+    "price": 11.99
+  },
+  {
+    "pet":"cat",
+    "category": 0,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"Cat DJ Scratching Deck",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fcat-dj-scratching-deck-31.gif",
+    "price": 26.99
+  },
+  {
+    "pet":"cat",
+    "category": 1,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Acana Grasslands Cat",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2facana-grasslands-cat-5-5-lb-31.gif",
+    "price": 25.99
+  },
+  {
+    "pet":"cat",
+    "category": 1,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Orijen Cat & Kitten",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2forijen-cat-kitten-15-lb-13.gif",
+    "price": 65.99
+  },
+  {
+    "pet":"cat",
+    "category": 1,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"Primal Freeze Dried Beef",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fprimal-freeze-dried-beef-salmon-cat-food-14-oz-59.gif",
+    "price": 28.99
+  },
+  {
+    "pet":"cat",
+    "category": 1,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"Primal Freeze Dried Beef",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fprimal-freeze-dried-turkey-cat-food-14-oz-78.gif",
+    "price": 28.99
+  },
+  {
+    "pet":"cat",
+    "category": 1,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"KMR Milk Replacer for Kittens",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fkmr-milk-replacer-for-kittens-8oz-51.gif",
+    "price": 4.45
+  },
+  {
+    "pet":"cat",
+    "category": 2,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Catit Catnip Spray",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fcatit-catnip-spray-3-oz-37.gif",
+    "price": 6.99
+  },
+  {
+    "pet":"cat",
+    "category": 2,
+    "subcategory": 0,
+    "id":9,
+    "product_name":"Kong Premium Catnip",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fkong-premium-catnip-1-oz-39.gif",
+    "price": 2.89
+  },
+  {
+    "pet":"cat",
+    "category": 2,
+    "subcategory": 1,
+    "id":9,
+    "product_name":"CET Chews for Cats ECONOMY",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fcet-chews-for-cats-economy-96-chews-poultry-flavor-77.gif",
+    "price": 46.79
+  },
+  {
+    "pet":"cat",
+    "category": 2,
+    "subcategory": 2,
+    "id":9,
+    "product_name":"Purebites Beef Liver Cat Treat",
+    "imageUrl":"http://search.entirelypets.com/thumb.php?s=150&aspect=true&f=http%3a%2f%2fep.yimg.com%2fay%2fentirelypets%2fpurebites-beef-liver-cat-treat-0-85-oz-90.gif",
+    "price": 1.99
+  }
+
+]

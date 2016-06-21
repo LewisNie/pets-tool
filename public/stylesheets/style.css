@@ -1,8 +1,72 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  //font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  //color: #00B7FF;
+}
+nav{
+    color:#ffffff;
+}
+.navbar{
+    border-radius: inherit;
+    margin-bottom: 0px;
+}
+.navbar-default{
+ background-color: #617FAF;
+    border-color: transparent;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand{
+    color: #ffffff;
+}
+@media screen and (min-width: 800px) {
+    .container-fluid{
+        width: 800px;
+    }
+    #secondNav{
+        width: 800px;
+        margin: 2px auto;
+    }
+}
+.banner{
+    width: 100%;
+}
+.panel1{
+    margin: 2px auto;
+    height: 50px;
+    width: 800px;
+    box-shadow: 1px 5px 5px #888888;
+}
+
+
+#secondNav .navbar-default{
+    background-color: #ffffff;
+    box-shadow: 1px 5px 5px #888888;
+    font-size: 10px;
+}
+#secondNav .navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+#secondNav .navbar-default .navbar-brand{
+    color: #000;
+}
+#secondNav .navbar-form .input-group>.form-control{
+    width: 120px;
+    font-size: 10px;
+
+;
+}
+.btn{
+    border-radius: inherit;
+}
+.form-control{
+    border-radius: inherit;
+}
+#secondNav .form-control{
+    border-radius: inherit;
 }
