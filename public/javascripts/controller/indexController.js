@@ -4,7 +4,7 @@
 (function(){
     var pets=angular.module('entirelyPets',['ui.router','ngResource','ui.bootstrap','ngAnimate']);
 
-    pets.controller("petsController",['$scope','dataResource','dogResource',function($scope,dataResource,dogResource){
+    pets.controller("petsController",['$scope','dataResource',function($scope,dataResource){
         $scope.currentPage = 1;
         $scope.selectedCategory={ id :-1};
         $scope.selectedSubCategory={id:-1};
@@ -178,13 +178,7 @@
         }
     }]);
 
-    pets.factory("dogResource",['$resource',function($resource){
-        return {
-            dogData:$resource('/dog.json',{},{
-                getData:{method:'GET', isArray:'false'}
-            })
-        }
-    }]);
+
     pets.filter('startFrom', function() {
         return function(input, start) {
             if(input) {
